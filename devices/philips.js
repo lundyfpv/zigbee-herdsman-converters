@@ -2243,7 +2243,7 @@ module.exports = [
         model: '929002478401',
         vendor: 'Philips',
         description: 'Hue white filament Edison ST19 E26 LED warm-to-cool',
-        extend: philips.extend.light_onoff_brightness_colortemp({colorTempRange: [222, 454]}),
+        extend: philips.extend.light_onoff_brightness_colortemp({colorTempRange: [222, 454], disableHueEffects: false}),
     },
     {
         zigbeeModel: ['LTV005'],
